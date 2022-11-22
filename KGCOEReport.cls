@@ -7,7 +7,29 @@
 %%%%%%% Base class
 \LoadClass[12pt]{article}
 
+
+%%%%%%% MUST OVERRIDE THESE FUNCTIONS
+
+% overridden like this
+% \newcommand{\LectureInstructor}{Dr. Cliver}
+
+% \exerciseNumber
+% \exerciseDescription
+% \dateDone
+% \dateSubmitted
+
+% TAKEN CARE OF BY CLASSReport.cls that I make for each class Im in
+% \classCode
+% \name
+% \LabSectionNum
+% \LabInstructor
+% \TAs     (as a newline sep list (Rusty Shackleford\\ Tony Bachetta \\ John Mallard) )
+% \LectureSectionNum
+% \LectureInstructor
+
+
 %%%%%%% Required packages
+\RequirePakcage{float}  % gives [H] location on figures and tables 
 \RequirePackage{multicol} %Make columns
 \RequirePackage[margin=1in]{geometry} %Change margins
 \RequirePackage[most]{tcolorbox}  % For the "RIT" box on EEEE cover
